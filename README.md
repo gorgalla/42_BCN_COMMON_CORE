@@ -18,14 +18,8 @@ This repository contains code developed at **42 Barcelona Common Core**, from **
 | Project | Language | Grade | Last Commit | Review Information |
 | :--- | :--- | :--- | :--- | :--- |
 | [libft]() | <img src="https://img.shields.io/badge/C%20-%20purple" /> | <img src="https://img.shields.io/badge/100%20%2F%20100%20-%20green" /> | <img src="https://img.shields.io/github/last-commit/gorgalla/42_BCN_COMMON_CORE" /> | `3 peers`|
-
-
 | [get_next_line]() | <img src="https://img.shields.io/badge/C%20-%20purple" /> | <img src="https://img.shields.io/badge/Not%20graded%20yet%20-%20blue" /> | <img src="https://img.shields.io/github/last-commit/gorgalla/42_BCN_COMMON_CORE/42_GET_NEXT_LINE" /> | `3 peers`|
-
-
 | [ft_printf]() | <img src="https://img.shields.io/badge/C%20-%20purple" /> | <img src="https://img.shields.io/badge/Not%20graded%20yet%20-%20blue" /> | <img src="https://img.shields.io/github/last-commit/gorgalla/42_BCN_COMMON_CORE" /> | `3 peers`|
-
-
 | [born2beroot]() | <img src="https://img.shields.io/badge/bash%20-%20purple" /> | <img src="https://img.shields.io/badge/Not%20graded%20yet%20-%20blue" /> | <img src="https://img.shields.io/github/last-commit/gorgalla/42_BCN_COMMON_CORE" /> | `3 peers`|
 
 </div>
