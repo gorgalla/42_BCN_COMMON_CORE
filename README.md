@@ -28,6 +28,6 @@ This repository contains code developed at **42 Barcelona Common Core**, from **
 
 | Exam Rank | Language | Finish Date | Grade | Time |
 | :--- | :--- | :--- | :--- | :--- |
-| Exam 02 | `C` | 31-03-2023 | <img src="https://img.shields.io/badge/Not%20graded%20yet%20-%20blue" /> | `3 hours` |
+| Exam 02 | `C` | 24 - 01 - 2024 | <img src="https://img.shields.io/badge/Not%20graded%20yet%20-%20blue" /> | `3 hours` |
 
 </div>
