@@ -1,7 +1,7 @@
 # 42_BCN_COMMON_CORE
 
 <p align="center">
-   <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flocampusdiari.com%2Farxius%2F52656&psig=AOvVaw2TMatuM7SQTMIFkzG1NJwW&ust=1700227564406000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCa-bHPyIIDFQAAAAAdAAAAABAJ">
+   <img src="https://github.com/gorgalla/42_BCN_COMMON_CORE/blob/main/images/42_banner_2.png">
 </p>
 
 <p align="center">
