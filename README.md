@@ -17,9 +17,9 @@ This repository contains code developed at **42 Barcelona Common Core**, from **
 
 | Project | Language | Grade | Last Commit | Review Information |
 | :--- | :--- | :--- | :--- | :--- |
-| [libft](https://github.com/jotavare/libft) | <img src="https://img.shields.io/github/languages/top/jotavare/libft" /> | <img src="https://img.shields.io/badge/125%20%2F%20100%20%E2%98%85-success" /> | <img src="" /> | `3 peers`|
-| [get_next_line](https://github.com/jotavare/get_next_line) | <img src="" /> | <img src="https://img.shields.io/badge/125%20%2F%20100%20%E2%98%85-success" /> | <img src="https://img.shields.io/github/last-commit/jotavare/get_next_line" /> | `3 peers`|
-| [ft_printf](https://github.com/jotavare/ft_printf) | <img src="" /> | <img src="https://img.shields.io/badge/104%20%2F%20100-success" /> | <img src="https://img.shields.io/github/last-commit/jotavare/ft_printf" /> | `3 peers`|
+| [libft](https://github.com/jotavare/libft) | <img src="https://img.shields.io/github/languages/top/jotavare/libft" /> | <img src="https://img.shields.io/badge/125%20%2F%20100%20%E2%98%85-success" /> | <img src="https://img.shields.io/github/last-commit/gorgalla/42_BCN_COMMON_CORE/42_LIBFT" /> | `3 peers`|
+| [get_next_line](https://github.com/jotavare/get_next_line) | <img src="" /> | <img src="https://img.shields.io/badge/125%20%2F%20100%20%E2%98%85-success" /> | <img src="https://img.shields.io/github/last-commit/gorgalla/42_BCN_COMMON_CORE/42_GET_NEXT_LINE" /> | `3 peers`|
+| [ft_printf](https://github.com/jotavare/ft_printf) | <img src="" /> | <img src="https://img.shields.io/badge/104%20%2F%20100-success" /> | <img src="https://img.shields.io/github/last-commit/gorgalla/42_BCN_COMMON_CORE/42_PRINTF" /> | `3 peers`|
 | [born2beroot](https://github.com/jotavare/born2beroot) | <img src="" /> | <img 
 </div>
 
