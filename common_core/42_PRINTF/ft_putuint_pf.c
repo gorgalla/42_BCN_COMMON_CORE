@@ -5,18 +5,18 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: gorgalla <gorgalla@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/30 14:45:41 by gorgalla          #+#    #+#             */
-/*   Updated: 2023/10/30 14:45:42 by gorgalla         ###   ########.fr       */
+/*   Created: 2023/11/13 15:18:28 by gorgalla          #+#    #+#             */
+/*   Updated: 2023/11/22 17:16:49 by gorgalla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_putuint_pf(unsigned int num, size_t *counter)
+void	ft_putuint_pf(unsigned int n, size_t *count)
 {
 	char	*str;
 
-	str = ft_aux_pf(num, "0123456789");
-	ft_putstr_pf(str, counter);
+	str = ft_auxiliar_pf(n, "0123456789");
+	ft_putstr_pf(str, count);
 	free(str);
 }

@@ -5,29 +5,29 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: gorgalla <gorgalla@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/30 14:45:10 by gorgalla          #+#    #+#             */
-/*   Updated: 2023/10/30 14:45:12 by gorgalla         ###   ########.fr       */
+/*   Created: 2023/11/13 15:17:00 by gorgalla          #+#    #+#             */
+/*   Updated: 2023/11/22 17:03:49 by gorgalla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_putnbr_pf(int num, size_t *counter)
+void	ft_putnbr_pf(int n, size_t *count)
 {
-	if (num == -2147483648)
+	if (n == -2147483648)
 	{
-		ft_putnbr_pf((num / 10), counter);
-		ft_putchar_pf('8', counter);
+		ft_putnbr_pf((n / 10), count);
+		ft_putchar_pf('8', count);
 	}
-	else if (num < 0)
+	else if (n < 0)
 	{
-		ft_putchar_pf('-', counter);
-		ft_putnbr_pf(-num, counter);
+		ft_putchar_pf('-', count);
+		ft_putnbr_pf(-n, count);
 	}
 	else
 	{
-		if (num > 9)
-			ft_putnbr_pf((num / 10), counter);
-		ft_putchar_pf(('0' + num % 10), counter);
+		if (n > 9)
+			ft_putnbr_pf((n / 10), count);
+		ft_putchar_pf(('0' + n % 10), count);
 	}
 }

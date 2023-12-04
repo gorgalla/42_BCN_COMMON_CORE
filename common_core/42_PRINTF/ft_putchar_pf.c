@@ -5,15 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: gorgalla <gorgalla@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/30 14:44:53 by gorgalla          #+#    #+#             */
-/*   Updated: 2023/10/30 14:44:54 by gorgalla         ###   ########.fr       */
+/*   Created: 2023/11/13 15:16:26 by gorgalla          #+#    #+#             */
+/*   Updated: 2023/12/04 11:39:26 by gorgalla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "ft_printf.h"
 
-void	ft_putchar_pf(char c, size_t *counter)
+void	ft_putchar_pf(char c, size_t *count)
 {
 	write(1, &c, 1);
-	(*counter)++;
+	(*count)++;
 }

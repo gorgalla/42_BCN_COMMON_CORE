@@ -6,7 +6,7 @@
 /*   By: gorgalla <gorgalla@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 13:57:13 by gorgalla          #+#    #+#             */
-/*   Updated: 2023/11/15 16:11:40 by gorgalla         ###   ########.fr       */
+/*   Updated: 2023/11/22 17:01:17 by gorgalla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 size_t	ft_strlen_pf(const	char *str)
 {
-	size_t len;
+	size_t	len;
 
 	len = 0;
 	if (!str)
@@ -53,7 +53,7 @@ static	size_t	ft_length(unsigned long long n, char *base)
 	size_t				l;
 	unsigned long long	base_length;
 
-	l = 0;
+	l = 1;
 	base_length = ft_strlen_pf(base);
 	while (n >= base_length)
 	{

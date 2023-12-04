@@ -5,34 +5,33 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: gorgalla <gorgalla@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/30 14:44:31 by gorgalla          #+#    #+#             */
-/*   Updated: 2023/10/30 14:47:42 by gorgalla         ###   ########.fr       */
+/*   Created: 2023/11/08 17:00:45 by gorgalla          #+#    #+#             */
+/*   Updated: 2023/12/04 11:40:01 by gorgalla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "ft_printf.h"
 
-void	ft_format(va_list va, char *str, size_t *counter)
+void	ft_format_pf(va_list va, char *str, size_t *count)
 {
 	if (*str == 'c')
-		ft_putchar_pf(va_arg(va, int), counter);
+		ft_putchar_pf(va_arg(va, int), count);
 	else if (*str == 's')
-		ft_putstr_pf(va_arg(va, char *), counter);
+		ft_putstr_pf(va_arg(va, char *), count);
 	else if (*str == 'p')
-		ft_putptr_pf(va_arg(va, void *), counter);
-	else if (*str == 'i' || *str == 'd')
-		ft_putnbr_pf(va_arg(va, int), counter);
+		ft_putptr_pf(va_arg(va, void *), count);
 	else if (*str == 'u')
-		ft_putuint_pf(va_arg(va, unsigned int), counter);
+		ft_putuint_pf(va_arg(va, unsigned int), count);
+	else if (*str == 'i' || *str == 'd')
+		ft_putnbr_pf(va_arg(va, int), count);
 	else if (*str == 'x' || *str == 'X')
 	{
 		if (*str == 'x')
-			ft_puthex_pf(va_arg(va, unsigned int), counter, HEX_LOW_BASE);
+			ft_puthex_pf(va_arg(va, unsigned int), count, HEX_LOW_BASE);
 		else
-			ft_puthex_pf(va_arg(va, unsigned int), counter, HEX_UPP_BASE);
+			ft_puthex_pf(va_arg(va, unsigned int), count, HEX_UPP_BASE);
 	}
 	else if (*str == '%')
-		ft_putchar_pf(*str, counter);
+		ft_putchar_pf(*str, count);
 }
 
 int	ft_printf(char const *str, ...)
@@ -49,7 +48,7 @@ int	ft_printf(char const *str, ...)
 		if (*str == '%')
 		{
 			str++;
-			ft_format(va, (char *)str, &counter);
+			ft_format_pf(va, (char *)str, &counter);
 		}
 		else
 			ft_putchar_pf(*str, &counter);
