@@ -73,7 +73,7 @@ char	*get_next_line(int fd)
 	int			position;
 	int			bytes;
 
-	if (BUFFER_SIZE <= 0 || fd < 0 || fd > 10240)
+	if (BUFFER_SIZE <= 0 || fd < 0)
 		return (NULL);
 	buff = NULL;
 	position = ft_strchr(next_line, '\n', 0);
